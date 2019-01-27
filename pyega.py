@@ -1,3 +1,17 @@
+# Copyright 2017-2019 James S Blachly, MD.
+# 
+# Licensed under the Apache License, Version 2.0 (the "License");
+# you may not use this file except in compliance with the License.
+# You may obtain a copy of the License at
+# 
+#     http://www.apache.org/licenses/LICENSE-2.0
+# 
+# Unless required by applicable law or agreed to in writing, software
+# distributed under the License is distributed on an "AS IS" BASIS,
+# WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+# See the License for the specific language governing permissions and
+# limitations under the License.
+
 import argparse
 import os
 import sys
@@ -252,7 +266,7 @@ def api_download_ticket(ticket, local_filename):
 
 def main():
     print("pyEGA version {}".format(version))
-    print("James S. Blachly, MD\n")
+    print("Copyright 2017-2019 James S. Blachly, MD (https://github.com/blachlylab/)\n")
 
     parser = argparse.ArgumentParser(description="Download from EMBL EBI's EGA (European Genome-phenome Archive")
     parser.add_argument("-d", "--debug", action="store_true", help="Extra debugging messages")
